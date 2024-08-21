@@ -1,0 +1,183 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Roboto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+div {
+    margin-bottom: 0;
+}
+
+p,
+button {
+    margin-top: 15px;
+}
+
+h1 {
+    margin-top: 0;
+}
+
+
+.dark-bg {
+    background-color: #1f2937;
+}
+
+.hero-main-text {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.hero-secondery-text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.header-logo-text {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: 600;
+}
+
+.btn-color,
+.call-to-action {
+    background-color: #3882f6;
+}
+
+.info-header-text {
+    font-size: 30px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.quote-bg {
+    background-color: #e5e7eb;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1f2937;
+}
+
+
+/* my css  */
+.flex {
+    display: flex;
+}
+
+.container {
+    padding-left: 200px;
+    padding-right: 100px;
+}
+
+.header-logo-text {
+    flex: 1;
+}
+
+nav {
+    display: flex;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+
+
+}
+
+a {
+    text-decoration: none;
+    color: #f9faf8;
+}
+
+.hero-text {
+    width: 400px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 500px;
+}
+
+button {
+    border: none;
+    padding: 7px 15px 7px 15px;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 15px;
+    color: #f9faf8;
+}
+
+.info {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.images {
+    margin-top: 40px;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.images img {
+    border: 4px solid #3882f6;
+    border-radius: 10px;
+}
+
+.images div {
+
+    width: 220px;
+    text-wrap: wrap;
+    text-align: center;
+    color: #1f2937
+}
+
+blockquote {
+    padding: 80px 0px 80px 0px;
+}
+
+.call {
+    margin: 40px;
+    padding: 10px 20px 10px 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 10px;
+}
+
+.call button {
+    background-color: transparent;
+    border: 2px solid #f9faf8;
+}
+
+footer {
+    text-align: center;
+    color: #f9faf8;
+    font-size: large;
+    padding: 40px;
+}
+
+.space {
+    margin-top: 100px;
+}
